@@ -8,3 +8,6 @@ multiple rows for the same winter season, the quote mark `"` was manually
 replaced by a duplicate of the previous row. Similarly, the date formats 
 were manually confirmed to be consistent. This data is in the `ice-raw.csv` file. 
 
+The raw data is reformatted to have more consistent and computer-friendly 
+data formats, as well as a recalculated ice-on duration via the `clean-data-dates.py` file, 
+producing `ice-dates.csv`.
