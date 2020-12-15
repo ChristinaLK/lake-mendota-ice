@@ -2,4 +2,4 @@
 .Rhistory
 .Rproj.user/
 mendota-ice.Rproj
-scripts/.ipynb_checkpoints
+scripts/.ipynb_checkpoints/*
