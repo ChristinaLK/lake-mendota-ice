@@ -7,4 +7,10 @@ on Lake Mendota in Madison, WI. Running the ['blocks' notebook](scripts/blocks.i
 will generate a visualization of the lake closing and opening each 
 winter. 
 
+## Data
+
 Information about the original data is in the [data README](data/README.md). 
+
+## Dependencies
+
+See the `requirements.txt` file for module dependencies on top of python3. 
