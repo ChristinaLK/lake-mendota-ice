@@ -3,3 +3,4 @@
 .Rproj.user/
 mendota-ice.Rproj
 scripts/.ipynb_checkpoints/*
+exports/*png
