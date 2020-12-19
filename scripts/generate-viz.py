@@ -4,9 +4,12 @@ import math
 import pandas
 from datetime import datetime
 import png
+import sys
+from pathlib import Path
 
 # get path
-infile = '../data/ice-dates.csv'
+#infile = '../data/ice-dates.csv'
+infile = sys.argv[1]
 
 data = pandas.read_csv(infile, usecols = ["YEAR1","CLOSEDDATE","OPENEDDATE"], 
                       parse_dates = ["CLOSEDDATE","OPENEDDATE"])
@@ -71,7 +74,10 @@ for year in years:
         #print(row)
         px.append(stripe)
 
-f = open('../exports/sample.png', 'wb')
+p = Path(infile)
+outfile = p.parents[1] / "exports" / "sample.png"
+
+f = open(outfile, 'wb')
 w = png.Writer(width*block_width, height*block_height*2, greyscale = False)
 w.write(f, px)
 f.close()

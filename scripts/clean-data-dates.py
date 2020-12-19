@@ -45,5 +45,3 @@ data['DURATION'] = data.apply(lambda x: x['OPENEDDATE'] - x['CLOSEDDATE'], axis 
 p = Path(datafile)
 outfile = p.parent / "ice-dates.csv"
 data.to_csv(outfile, index = False)
-
-
