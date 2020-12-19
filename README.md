@@ -1,13 +1,17 @@
 # Lake Mendota Ice Cover
 
-**Christina Koch**, @ChristinaLK
-
-December 14, 2020
+> **Christina Koch**, @ChristinaLK
+> 
+> December 14, 2020
 
 This repository contains a brief analysis of the ice cover over time 
-on Lake Mendota in Madison, WI. Running the ['blocks' notebook](scripts/blocks.ipynb)
-will generate a visualization of the lake closing and opening each 
-winter. 
+on Lake Mendota in Madison, WI, visualized as a stacked timeline, 
+`ice_cover_1855_2020.png`. 
+
+Running `make` will reproduce the visualization. 
+
+To explore the visualization more interactively, try running 
+the ['blocks' notebook](scripts/blocks.ipynb) in the `/scripts` folder. 
 
 ## Data
 
